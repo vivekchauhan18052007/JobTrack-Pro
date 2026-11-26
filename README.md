@@ -1,48 +1,89 @@
 # JobTrack Pro
 
-JobTrack Pro is a frontend job application tracker made with React, Vite, React Router, Context API, Tailwind CSS, and localStorage.
+A simple and responsive Job Application Tracker built with React. It helps users manage job applications, track interview progress, and organize their job search in one place.
 
 ## Features
 
-- Dashboard with application counts and recent applications
-- Add, view, edit, and delete job applications
-- Save application data in browser localStorage
-- Search applications by company, role, or location
-- Filter applications by status
-- Sort applications by applied date
-- View one application using its dynamic URL
-- See applications in the Interview status
-- Add interview dates, company website, salary, location, job type, and notes
-- Edit a simple personal profile
-- Settings for compact rows, delete confirmation, and clearing saved applications
-- Responsive navigation and a 404 page
+- Dashboard with application statistics
+- Add, edit, and delete job applications
+- View all applications in one place
+- Track application statuses
+- Search and filter applications
+- View individual application details
+- Interview tracking
+- Profile and settings pages
+- Persistent data using LocalStorage
+- Context API for state management
+- Dynamic routing with React Router
+- Responsive user interface
 
-## Run the project
+## Tech Stack
 
-You need Node.js installed.
+- React
+- JavaScript
+- Tailwind CSS
+- React Router
+- Context API
+- LocalStorage
+- Vite
+- React Icons
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/vivekchauhan18052007/JobTrack-Pro.git
+```
+
+2. Open the project folder:
+
+```bash
+cd JobTrack-Pro
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
+```
+
+4. Start the development server:
+
+```bash
 npm run dev
 ```
 
-Open the local URL shown in the terminal.
+5. Open the local URL shown in your terminal.
 
-## Create a production build
+## Project Structure
 
-```bash
-npm run build
-npm run preview
+```text
+src/
+├── Components/
+├── Context/
+├── Routes/
+├── hooks/
+├── layouts/
+├── pages/
+├── utils/
+├── App.jsx
+└── main.jsx
 ```
 
-## Important notes
+## Data Storage
 
-- This is a frontend portfolio project. It does not use a backend or database.
-- Application data is saved only in the current browser using localStorage.
-- Data does not sync between devices or browsers.
-- Real login, multi-user accounts, and AI features are not included.
-- Do not store passwords or sensitive personal information in this project.
+JobTrack Pro uses browser LocalStorage to save application data. Data remains available after refreshing the page, but it does not sync across different devices.
 
-## How to explain this project in an interview
+## Future Improvements
 
-"JobTrack Pro is a React job application tracker. I used React state to manage forms and UI, Context API to share application data between pages, and localStorage to keep the data after refresh. React Router is used for page navigation and dynamic application detail pages. Users can add, edit, delete, search, filter, and sort their job applications."
+- Backend integration
+- User authentication
+- Cloud database
+- Application reminders
+
+## Author
+
+**Vivek Chauhan**
+
+GitHub: [@vivekchauhan18052007](https://github.com/vivekchauhan18052007)
